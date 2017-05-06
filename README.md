@@ -1,1 +1,3 @@
-# Mushroom-Collector
+# Mushroom Collector
+
+https://eyucesar.github.io/Mushroom-Collector/

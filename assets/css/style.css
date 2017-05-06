@@ -1,0 +1,67 @@
+body {
+	background-image: url("../images/background3.jpg");
+	background-size: cover;
+	width: 100%;
+	font-family: "Fredoka One", cursive, Arial;
+	color: #603a14; 
+}
+
+img {
+	border-radius: 5px;
+}
+
+h1 {
+	font-size: 54px;
+	text-align: center;
+	color: white;
+}
+
+h2 {
+	color: #603a14;
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bolder;
+	color: black;
+}
+
+h4 {
+	font-size: 30px;
+	margin-left: 10px;
+}
+
+p {
+	text-align: left;
+	font-size: 18px;
+	color: #603a14;
+}
+
+.col-md-8 {
+	background-color: white;
+	border-radius: 5px;
+}
+
+footer {
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+
+.thumbnail {
+	padding: 8px;
+	border-radius: 5px;
+	border-color: white;
+}
+
+.thumbnail:hover {
+	background-color: #bc0f2b;
+	border-color: #bc0f2b;
+}
+
+#basket {
+	background-color: white;
+	border-radius: 5px;
+}

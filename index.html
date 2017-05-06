@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Collect Mushrooms!</title>
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  	<script src="https://code.jquery.com/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Boogaloo|Fredoka+One" rel="stylesheet">
+
+</head>
+<body>
+
+	<br>
+	<br>
+	
+	<div class="container">
+		<div class="row">
+		  <div class="col-md-12">
+		  	<br>
+		   	<h1>COLLECT MUSHROOMS IN THE FOREST!</h1>
+		   	<br>
+		  </div>
+		</div>
+
+		<br><br><br><br> 
+
+		<div class="row">
+			<div class="col-md-8">
+				<br><h2>Instructions</h2>
+				<br>
+				<p>You will be given a target score at the beginning of the game.</p><br>
+				<p>To increase your score, click the mushrooms. Try to reach your target score in as few clicks as possible.</p><br>
+				<p>Each mushroom is worth a different number of points, and these values change each time you start a new game.</p><br>
+				<p>Click the play below to enter the forest. Good luck!</p><br>
+				<audio controls><source src="assets/audio/jungle.mp3"></audio>
+			</div>
+
+			<div class="col-md-1">
+			</div>
+
+			<div id="basket" class="col-md-3">
+				<div>
+					<br>
+					<h4>Target Score: <span id="targetScore">0</span></h4><br>
+    				<h4>Your Score: <span id="score">0</span></h4><br><br>
+    				<h4>Wins: <span id="wins">0</span></h4><br>
+    				<h4>Losses: <span id="losses">0</span></h4><br>
+    				<h4>Clicks: <span id="clicks">0</span></h4><br>
+        		</div>
+			</div>
+		</div>
+
+		<br><br><br><br><br>
+
+		<div id="mushRow" class="row">
+		  <div class="col-sm-6 col-md-3">
+		    <div id="mushroom1" class="thumbnail">
+		      	<a href="#"><img src="assets/images/mushroom1.jpg" alt="Mushroom 1"></a>
+		    </div>
+		  </div>
+
+		  <div class="col-sm-6 col-md-3">
+		    <div id="mushroom2" class="thumbnail">
+		      	<a href="#"><img src="assets/images/mushroom2.jpg" alt="Mushroom 2"></a>
+		    </div>
+		  </div>
+
+		  <div class="col-sm-6 col-md-3">
+		    <div id="mushroom3" class="thumbnail">
+		      	<a href="#"><img src="assets/images/mushroom3.jpg" alt="Mushroom 3"></a>
+		    </div>
+		  </div>
+
+		  <div class="col-sm-6 col-md-3">
+		    <div id="mushroom4" class="thumbnail">
+		     	<a href="#"><img src="assets/images/mushroom4.jpg" alt="Mushroom 4"></a>
+		    </div>
+		  </div>
+		</div>
+
+		  <div class="row">
+		  	<div class="col-md-12">
+		  		<br><br>
+		  		<footer>&copy;2017 Ebru Yucesar</footer>
+		    </div>
+		  </div>
+
+	</div>
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
